@@ -1,7 +1,7 @@
 def my_each(array)
   i = 0
   while i < array.length
-    array.collect do |element|
+    array[i] do
       yield
       i += 1
     end
