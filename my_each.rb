@@ -3,5 +3,6 @@ def my_each(array)
   array.each do |element|
     yield
     i += 1
-    
+  end
+
 end
